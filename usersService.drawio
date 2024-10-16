@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1409" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3287" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -224,6 +224,76 @@
         </mxCell>
         <mxCell id="ctFC_eEfjPi1U_Sdx5GM-61" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar el usuario User&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-62" value="&lt;div&gt;delete&lt;/div&gt;&lt;div&gt;param: userId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-63" target="ctFC_eEfjPi1U_Sdx5GM-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-63" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el userId&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-65" target="ctFC_eEfjPi1U_Sdx5GM-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-68" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No existe&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ctFC_eEfjPi1U_Sdx5GM-67">
+          <mxGeometry x="0.2979" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-65" target="ctFC_eEfjPi1U_Sdx5GM-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-72" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si existe&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ctFC_eEfjPi1U_Sdx5GM-70">
+          <mxGeometry x="0.2889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-65" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar el usuario y el correo&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="395" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-69" value="&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFoundError 404&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="480" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-71" target="ctFC_eEfjPi1U_Sdx5GM-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-71" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Eliminar el usuario&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-75" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar message: &lt;br&gt;&quot;Usuario eliminado con exito&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="433" y="543" width="94" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-78" value="&lt;div&gt;delete&lt;/div&gt;&lt;div&gt;param: userId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-79" target="ctFC_eEfjPi1U_Sdx5GM-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-79" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el userId&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="595" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ctFC_eEfjPi1U_Sdx5GM-82" target="ctFC_eEfjPi1U_Sdx5GM-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-82" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Eliminar todos los usuarios&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="595" y="392.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ctFC_eEfjPi1U_Sdx5GM-84" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar message: &quot;Usuarios eliminados con exito&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="595" y="470" width="90" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
