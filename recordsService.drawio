@@ -1,9 +1,412 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Página-1" id="HGxItiI6D58sy884sVqJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1160" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-1" target="gbw0nadR2lrwM5C2XNWw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-1" value="findAll" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="48" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-3" target="gbw0nadR2lrwM5C2XNWw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-6" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-4">
+          <mxGeometry x="0.3076" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-3" target="gbw0nadR2lrwM5C2XNWw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-3" value="Buscar los expedientes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-5" value="Retornar Error: NotFound 404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-8" value="Retornar los expedientes: Record[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-9" value="recordsService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="8" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-10" target="gbw0nadR2lrwM5C2XNWw-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-10" value="&lt;div&gt;findById&lt;/div&gt;&lt;div&gt;param: recordId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="59" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-13" target="gbw0nadR2lrwM5C2XNWw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-13" value="Ingresar el recordId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="121" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-15" target="gbw0nadR2lrwM5C2XNWw-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="231" />
+              <mxPoint x="310" y="296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-17" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-16">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-15" target="gbw0nadR2lrwM5C2XNWw-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="286.00000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-20">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-15" value="Buscar el expediente" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="196" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-18" value="Retornar el expediente Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="286" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-21" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="306" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-23" target="gbw0nadR2lrwM5C2XNWw-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-23" value="&lt;div&gt;findByRecordNumber&lt;/div&gt;&lt;div&gt;param: numero_expediente&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="59" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-25" target="gbw0nadR2lrwM5C2XNWw-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-25" value="Ingresar el numero_expediente" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="121" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-31" target="gbw0nadR2lrwM5C2XNWw-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="231" />
+              <mxPoint x="580" y="296" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-28" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-27">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-31" target="gbw0nadR2lrwM5C2XNWw-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="286.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-29">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-31" value="Buscar el expediente" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="196" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-32" value="Retornar el expediente Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="286" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-33" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="286" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-35" target="gbw0nadR2lrwM5C2XNWw-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-35" value="&lt;div&gt;findBySentence&lt;/div&gt;&lt;div&gt;param: sentencia&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-37" target="gbw0nadR2lrwM5C2XNWw-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-37" value="Ingresar la sentencia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="382" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-42" target="gbw0nadR2lrwM5C2XNWw-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="557" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="492" />
+              <mxPoint x="60" y="557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-39" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-38">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-42" target="gbw0nadR2lrwM5C2XNWw-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="547" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-41" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-40">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-42" value="Buscar el expediente" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="457" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-43" value="Retornar el expediente Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="547" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-44" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="567" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-46" target="gbw0nadR2lrwM5C2XNWw-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-46" value="&lt;div&gt;findByCourt&lt;/div&gt;&lt;div&gt;param: courtId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="490" />
+              <mxPoint x="380" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-48" value="Ingresar el courtId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="422" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-53" target="gbw0nadR2lrwM5C2XNWw-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="684" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="619" />
+              <mxPoint x="315" y="684" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-50" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-49">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-53" target="gbw0nadR2lrwM5C2XNWw-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="674" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="619" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-52" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-51">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-53" value="Buscar los expedientes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="597" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-54" value="Retornar los expedientes Record[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="674" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-55" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="694" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-56" target="gbw0nadR2lrwM5C2XNWw-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-58" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-57">
+          <mxGeometry x="-0.2664" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-56" target="gbw0nadR2lrwM5C2XNWw-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-61" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-60">
+          <mxGeometry x="0.2923" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-56" value="Buscar el tribunal" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="497" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-59" value="Retornar Error: NotFound 404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="515" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-80" target="gbw0nadR2lrwM5C2XNWw-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-80" value="&lt;div&gt;findByBox&lt;/div&gt;&lt;div&gt;param: boxId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="370" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="500" />
+              <mxPoint x="670" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-82" value="Ingresar el boxId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="432" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-87" target="gbw0nadR2lrwM5C2XNWw-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="694" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="629" />
+              <mxPoint x="605" y="694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-84" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-83">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-87" target="gbw0nadR2lrwM5C2XNWw-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="684" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-86" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-85">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-87" value="Buscar los expedientes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="607" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-88" value="Retornar los expedientes Record[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="684" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-89" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="704" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-94" target="gbw0nadR2lrwM5C2XNWw-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-91" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-90">
+          <mxGeometry x="-0.2664" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-94" target="gbw0nadR2lrwM5C2XNWw-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-93" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-92">
+          <mxGeometry x="0.2923" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-94" value="Buscar la caja" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="507" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-95" value="Retornar Error: NotFound 404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="525" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-97" target="gbw0nadR2lrwM5C2XNWw-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="801" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-97" value="&lt;div&gt;findByStatus&lt;/div&gt;&lt;div&gt;body: estado&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="734" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-99" target="gbw0nadR2lrwM5C2XNWw-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-99" value="Ingresar el estado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="796" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-104" target="gbw0nadR2lrwM5C2XNWw-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="971" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="906" />
+              <mxPoint x="60" y="971" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-101" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-100">
+          <mxGeometry x="0.6216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gbw0nadR2lrwM5C2XNWw-104" target="gbw0nadR2lrwM5C2XNWw-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="961" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-103" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gbw0nadR2lrwM5C2XNWw-102">
+          <mxGeometry x="0.6749" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-104" value="Buscar los expedientes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="871" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-105" value="Retornar los expedientes Record[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="961" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-106" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="961" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
