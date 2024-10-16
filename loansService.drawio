@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Página-1" id="9MJWwUZBBLu0T36h7VKG">
-    <mxGraphModel dx="1972" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="680" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,6 +385,25 @@
         </mxCell>
         <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-97" value="Retornar message: &quot;Prestamo eliminado con exito&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="145" y="1510" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-98" target="t0jGBZ8RW76Y2C9oPi6Z-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-98" value="deleteAll" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1128" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-100" target="t0jGBZ8RW76Y2C9oPi6Z-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-100" value="Eliminar todos los prestamos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-102" value="Retornar message: &quot;Prestamos eliminados con exito&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
