@@ -407,6 +407,9 @@
         <mxCell id="gbw0nadR2lrwM5C2XNWw-106" value="Retornar Error: NotFound 404 " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="961" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="gbw0nadR2lrwM5C2XNWw-107" value="&lt;div&gt;create&lt;/div&gt;&lt;div&gt;body: createRecordDto&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1105" width="150" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
