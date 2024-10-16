@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Página-1" id="9MJWwUZBBLu0T36h7VKG">
-    <mxGraphModel dx="986" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1972" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,6 +258,133 @@
         </mxCell>
         <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-64" value="Retornar el prestamo actualizado: Loan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="392.5" y="715" width="105" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-65" target="t0jGBZ8RW76Y2C9oPi6Z-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-65" value="&lt;div&gt;markAsReturned&lt;/div&gt;&lt;div&gt;param: loanId&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="393" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-67" target="t0jGBZ8RW76Y2C9oPi6Z-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-67" value="Ingresar el loanId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="460" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-69" target="t0jGBZ8RW76Y2C9oPi6Z-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="583.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-72" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t0jGBZ8RW76Y2C9oPi6Z-70">
+          <mxGeometry x="-0.7163" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-69" target="t0jGBZ8RW76Y2C9oPi6Z-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-74" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t0jGBZ8RW76Y2C9oPi6Z-73">
+          <mxGeometry x="-0.1445" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-69" value="Buscar el prestamo" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="543.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-71" value="Retornar Error: NotFound 404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="563.75" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-76" target="t0jGBZ8RW76Y2C9oPi6Z-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-76" target="t0jGBZ8RW76Y2C9oPi6Z-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-80" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t0jGBZ8RW76Y2C9oPi6Z-79">
+          <mxGeometry x="-0.1801" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-76" value="Verificar si el prestamo esta en_progreso o no" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-78" value="Retornar Error: BadReq 400" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="692.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-82" target="t0jGBZ8RW76Y2C9oPi6Z-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-82" value="Marcar como devuelto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="790" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-84" value="Retornar el prestamo actualizado: Loan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-85" target="t0jGBZ8RW76Y2C9oPi6Z-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-85" value="&lt;div&gt;delete&lt;/div&gt;&lt;div&gt;param: loanId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1125" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-87" target="t0jGBZ8RW76Y2C9oPi6Z-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-87" value="Ingresar el loanId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="139.9999999999999" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-89" target="t0jGBZ8RW76Y2C9oPi6Z-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-92" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t0jGBZ8RW76Y2C9oPi6Z-90">
+          <mxGeometry x="-0.3846" relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-89" target="t0jGBZ8RW76Y2C9oPi6Z-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.9999999999999" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-94" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t0jGBZ8RW76Y2C9oPi6Z-93">
+          <mxGeometry x="-0.2505" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-89" value="Buscar el prestamo" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159.9999999999999" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-91" value="Retornar Error: NotFound 404" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t0jGBZ8RW76Y2C9oPi6Z-95" target="t0jGBZ8RW76Y2C9oPi6Z-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-95" value="Eliminar el prestamo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t0jGBZ8RW76Y2C9oPi6Z-97" value="Retornar message: &quot;Prestamo eliminado con exito&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1510" width="110" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
