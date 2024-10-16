@@ -1,9 +1,258 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Página-1" id="vw6GqwmN5ZrhFgW-mw1w">
-    <mxGraphModel>
+    <mxGraphModel dx="563" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-1" value="boxesService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="8" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-2" target="8geL__UNSn9p4XAOmCWZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-2" value="findAll" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-4" target="8geL__UNSn9p4XAOmCWZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-6" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No existen&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-5">
+          <mxGeometry x="0.5171" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-4" target="8geL__UNSn9p4XAOmCWZ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-9" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si existen&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-8">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Buscar las cajas&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-7" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFoundError 404&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-10" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar las cajas: Box[]&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-11" target="8geL__UNSn9p4XAOmCWZ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-11" value="&lt;div&gt;findById&lt;/div&gt;&lt;div&gt;param: boxId&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="43" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-14" target="8geL__UNSn9p4XAOmCWZ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-14" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el boxId&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="106.25" width="75" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-16" target="8geL__UNSn9p4XAOmCWZ-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="197.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-19" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-17">
+          <mxGeometry x="0.375" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-16" target="8geL__UNSn9p4XAOmCWZ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="197.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-21" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-20">
+          <mxGeometry x="-0.1623" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-16" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar la caja&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="170" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-18" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFoundError 404&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-22" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar la caja: Box&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-23" target="8geL__UNSn9p4XAOmCWZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="99.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-23" value="&lt;div&gt;findByNumber&lt;/div&gt;&lt;div&gt;param: numero_caja&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-25" target="8geL__UNSn9p4XAOmCWZ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-25" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el numero_caja&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="103.75" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-27" target="8geL__UNSn9p4XAOmCWZ-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-31" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-28">
+          <mxGeometry x="0.2385" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-27" target="8geL__UNSn9p4XAOmCWZ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-29">
+          <mxGeometry x="0.2746" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-27" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar la caja&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-32" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFound 404&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-33" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar la caja: Box&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-34" target="8geL__UNSn9p4XAOmCWZ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-34" value="&lt;div&gt;findByCourt&lt;/div&gt;&lt;div&gt;body: tribunal&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="38" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-36" target="8geL__UNSn9p4XAOmCWZ-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-36" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el courtId&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="103.75" width="75" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-38" target="8geL__UNSn9p4XAOmCWZ-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-42" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-39">
+          <mxGeometry x="0.1267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.835;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-38" target="8geL__UNSn9p4XAOmCWZ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-41" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-40">
+          <mxGeometry x="0.0346" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-38" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar el tribunal&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="170" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-43" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFound 404&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-44" target="8geL__UNSn9p4XAOmCWZ-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-46" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-45">
+          <mxGeometry x="0.1973" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-44" target="8geL__UNSn9p4XAOmCWZ-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-48" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-47">
+          <mxGeometry x="0.2168" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-44" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar las cajas&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-49" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: NotFound 404&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-50" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar las cajas: Box[]&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-51" target="8geL__UNSn9p4XAOmCWZ-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-51" value="&lt;div&gt;create&lt;/div&gt;&lt;div&gt;createBoxDto&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="363" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-53" target="8geL__UNSn9p4XAOmCWZ-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-53" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Ingresar el createBoxDto&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-55" target="8geL__UNSn9p4XAOmCWZ-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-57" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Si&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-56">
+          <mxGeometry x="0.2693" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8geL__UNSn9p4XAOmCWZ-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-60" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8geL__UNSn9p4XAOmCWZ-59">
+          <mxGeometry x="0.2947" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-55" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Buscar el numero_caja&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="520" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8geL__UNSn9p4XAOmCWZ-58" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Retornar Error: BadRequest 400&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="70" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
